@@ -4,11 +4,14 @@
 
 ## Cara Install dan Run Kode
 <p>Pertamma Kalian harus sudah ada Node.JS di Windows/Linux/MacOS</p>
-<p>Download NodeJS: </p> <a href="https://nodejs.org/en/download">Download NodeJS di sini</a>
+<p>Download NodeJS: </p>
+<a href="https://nodejs.org/en/download">Download NodeJS di sini</a>
 <br>
 
 <p>Jika sudah terinstall NodeJS, Kalian Harus download file ini, atau melalui git</p>
 <br>
+
+<p>Ketika melalui git cmd</p>
 
 ```
 $ git clone https://github.com/Fandyfr/pembelajaran-javascript
