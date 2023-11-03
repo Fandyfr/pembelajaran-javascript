@@ -6,11 +6,12 @@
 const readline = require('readline');
 
 const rl = readline.createInterface({
-    // Process deketik huruf kecil "process" Agar tidak Error saat dijalankan
+    // Process diketik huruf kecil "process" Agar tidak Error saat dijalankan
     input: process.stdin,
     output: process.stdout
 });
-
+console.log("Kalkulator Perkalian Sederhana by FandyFr");
+console.log(""); // Kosong Biar Ada Jarak
 rl.question("Masukan Angka Pertama: ", function(angka1) {
     // Agar masuk ke Pertanyaan Kedua Seperti If di kasih Curly Bracket {}
 
@@ -21,8 +22,8 @@ rl.question("Masukan Angka Pertama: ", function(angka1) {
         // Jika Anda Memasukan Angka Yg Valid/Benar
         if(!isNaN(angka1) && !isNaN(angka2)) {
             // Jika Input Angka dan tidak adalah Char atau Symbol
-            var hasil = angka1 + angka2;
-            console.log("Hasil Penambahan: " + hasil);
+            var hasil = angka1 * angka2;
+            console.log("Hasil Perkalian: " + hasil);
         } else {
             // Jika Input Memakai Char Atau Symbol
             console.log("Harap masukan angka yang Benar/Valid, Dilarang Pakai Char atau Symbol !!!");
